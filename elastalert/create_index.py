@@ -31,10 +31,18 @@ def create_index_mappings(es_client, ea_index, recreate=False, old_ea_index=None
     es_index_mappings = {}
     if is_atleasteight(esversion):
         es_index_mappings = read_es_index_mappings()
+<<<<<<< HEAD
     elif is_atleastsix(esversion):
         es_index_mappings = read_es_index_mappings(6)
     else:
         es_index_mappings = read_es_index_mappings(5)
+=======
+    elif is_atleastseven(esversion):
+        es_index_mappings = read_es_index_mappings(7)
+    else:                                      
+        print('FATAL - Unsupported Elasticsearch version: ' + esversion + '. Aborting.')
+        exit(1)
+>>>>>>> f22dd8e3 (If unsupported version, abort before deleting and creating indices)
 
     es_index = IndicesClient(es_client)
     if not recreate:
