@@ -39,7 +39,6 @@
 - Remove download_dashboard [#740](https://github.com/jertel/elastalert2/pull/740) - @nsano-rururu
 - Added documentation for metric|spike aggregation rule types for percentiles [e682ea8](https://github.com/jertel/elastalert2/commit/e682ea8113bf9f413b6339e6803b5262881f2b30)- @jertel
 
-
 # 2.3.0
 
 ## Breaking changes
