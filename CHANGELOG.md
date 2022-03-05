@@ -33,15 +33,16 @@
 - Update minimum versions for third-party dependencies in requirements.txt and setup.py - [#705](https://github.com/jertel/elastalert2/pull/705) - @nsano-rururu
 - [Docs] Document updates for Alerts and email addresses etc - [#706](https://github.com/jertel/elastalert2/pull/706) - @nsano-rururu
 - [Docs] Update of RuleType Configuration Cheat Sheet - [#707](https://github.com/jertel/elastalert2/pull/707) - @nsano-rururu
-- Pytest 7.0.0 to 7.0.1 - [#710](https://github.com/jertel/elastalert2/pull/710) - @nsano-rururu
-- Enable dynamic setting of rules volume in helm chart [#732] - @ChrisFraun
-- Fixing jira_transition_to schema bug. Change property type from boolean to string [#721](https://github.com/jertel/elastalert2/pull/721) - @toxisch
-- Begin Elasticsearch 8 support - ElastAlert 2 now supports setup with fresh ES 8 instances, and works with some alert types [#731](https://github.com/jertel/elastalert2/pull/731) - @ferozsalam
-- Enable dynamic setting of rules volume in helm chart [#732](https://github.com/jertel/elastalert2/pull/732) - @ChrisFraun
-- Add Elasticsearch 8 support documentation [#735](https://github.com/jertel/elastalert2/pull/735) - @ferozsalam
-- Do not install tests via pip install [#733](https://github.com/jertel/elastalert2/pull/733) - @buzzdeee
-- Remove download_dashboard [#740](https://github.com/jertel/elastalert2/pull/740) - @nsano-rururu
-- Added documentation for metric|spike aggregation rule types for percentiles [e682ea8](https://github.com/jertel/elastalert2/commit/e682ea8113bf9f413b6339e6803b5262881f2b30)- @jertel
+- Upgrade Pytest 7.0.0 to 7.0.1 - [#710](https://github.com/jertel/elastalert2/pull/710) - @nsano-rururu
+- Fixing jira_transition_to schema bug. Change property type from boolean to string - [#721](https://github.com/jertel/elastalert2/pull/721) - @toxisch
+- Begin Elasticsearch 8 support - ElastAlert 2 now supports setup with fresh ES 8 instances, and works with some alert types - [#731](https://github.com/jertel/elastalert2/pull/731) - @ferozsalam
+- Enable dynamic setting of rules volume in helm chart - [#732](https://github.com/jertel/elastalert2/pull/732) - @ChrisFraun
+- Do not install tests via pip install - [#733](https://github.com/jertel/elastalert2/pull/733) - @buzzdeee
+- [Docs] Add Elasticsearch 8 support documentation - [#735](https://github.com/jertel/elastalert2/pull/735) - @ferozsalam
+- Remove download_dashboard - [#740](https://github.com/jertel/elastalert2/pull/740) - @nsano-rururu
+- [Docs] Added documentation for metric|spike aggregation rule types for percentiles - [e682ea8](https://github.com/jertel/elastalert2/commit/e682ea8113bf9f413b6339e6803b5262881f2b30)- @jertel
+- [Jira] Add support for Jira authentication via Personal Access Token - [#750](https://github.com/jertel/elastalert2/pull/750) - @buzzdeee
+- [Docs] Update docs Negation, and, or - [#754](https://github.com/jertel/elastalert2/pull/754) - @nsano-rururu
 
 # 2.3.0
 
