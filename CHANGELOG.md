@@ -24,11 +24,11 @@
 
 ## Other changes
 - Load Jinja template when loading an alert - [#654](https://github.com/jertel/elastalert2/pull/654) - @thib12
-- tox 3.24.4 to 3.24.5 - [#655](https://github.com/jertel/elastalert2/pull/655) - @nsano-rururu
-- sphinx 4.3.2 to 4.4.0 - [#661](https://github.com/jertel/elastalert2/pull/661) - @nsano-rururu
+- Upgrade tox 3.24.4 to 3.24.5 - [#655](https://github.com/jertel/elastalert2/pull/655) - @nsano-rururu
+- Upgrade sphinx 4.3.2 to 4.4.0 - [#661](https://github.com/jertel/elastalert2/pull/661) - @nsano-rururu
 - [Docs] Fix Running Docker container - [#674](https://github.com/jertel/elastalert2/pull/674) - @nsano-rururu 
 - [Exotel] Added exotel_message_body to schema.yaml - [#685](https://github.com/jertel/elastalert2/pull/685) - @nsano-rururu
-- Pytest 6.2.5 to 7.0.0 - [#696](https://github.com/jertel/elastalert2/pull/696) - @nsano-rururu
+- Upgrade Pytest 6.2.5 to 7.0.0 - [#696](https://github.com/jertel/elastalert2/pull/696) - @nsano-rururu
 - python-dateutil version specification change - [#704](https://github.com/jertel/elastalert2/pull/704) - @nsano-rururu
 - Update minimum versions for third-party dependencies in requirements.txt and setup.py - [#705](https://github.com/jertel/elastalert2/pull/705) - @nsano-rururu
 - [Docs] Document updates for Alerts and email addresses etc - [#706](https://github.com/jertel/elastalert2/pull/706) - @nsano-rururu
