@@ -1727,8 +1727,8 @@ class ElastAlerter(object):
 
         # Fetch recent, unsent alerts that aren't part of an aggregate, earlier alerts first.
         inner_query = {'query_string': {'query': '!_exists_:aggregate_id AND alert_sent:false'}}
-        time_filter = {'range': {'alert_time': {'from': dt_to_ts(ts_now() - time_limit),
-                                                'to': dt_to_ts(ts_now())}}}
+        time_filter = {'range': {'alert_time': {'gte': dt_to_ts(ts_now() - time_limit),
+                                                'lte': dt_to_ts(ts_now())}}}
         sort = {'sort': {'alert_time': {'order': 'asc'}}}
         if self.writeback_es.is_atleastfive():
             query = {'query': {'bool': {'must': inner_query, 'filter': time_filter}}}
