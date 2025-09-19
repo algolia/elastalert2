@@ -4,7 +4,6 @@
 - None
 
 ## New features
-- TBD - [#000](https://github.com/jertel/elastalert2/pull/000) - @some_elastic_contributor_tbd
 
 ## Other changes
 - None
