@@ -4,7 +4,7 @@
 - None
 
 ## New features
-- TBD - [#000](https://github.com/jertel/elastalert2/pull/000) - @some_elastic_contributor_tbd
+- `summary_table_fields` now accepts a dict form with `path` and optional `header` keys for custom column labels - [#PR_NUMBER](https://github.com/jertel/elastalert2/pull/PR_NUMBER) - @dennis-trapp
 
 ## Other changes
 - None
