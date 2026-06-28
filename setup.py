@@ -44,7 +44,9 @@ setup(
         'jira>=3.8.0',
         'Jinja2==3.1.5',
         'jsonschema>=3.2.0',
-        'prettytable>=3.12.0',
+        # Custom prettytable 3.12.0 with support for python 3.8 restored
+        # from https://github.com/algolia/prettytable.git
+        'prettytable==3.12.1',
         'prison>=0.1.3',
         'prometheus_client>=0.10.1',
         'py-zabbix>=1.1.7',
@@ -58,6 +60,7 @@ setup(
         'statsd-tags==3.2.1.post1',
         'tencentcloud-sdk-python>=3.0.484',
         'jsonpointer>=2.1',
-        'tzlocal>=2.1'
+        'tzlocal>=2.1',
+        'urllib3==1.26.20'
     ]
 )
